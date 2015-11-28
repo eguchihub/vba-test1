@@ -1,6 +1,6 @@
 Sub main()
 
-MsgBox ("this Is test")
+MsgBox ("this is test")
 
 
 End Sub
