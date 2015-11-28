@@ -14,6 +14,9 @@ Dim x, y As Integer
 x = 2
 y = 4
 
+Call Fn_msg(x, "x")
+
+Exit Sub
 
 Dim int_maxrow As Integer
 Dim int_maxcol As Integer
@@ -28,4 +31,9 @@ End Sub
 Function Fn_read(a As String)
 
 
+End Function
+
+Function Fn_msg(arg, str)
+Dim mb As Integer
+mb = MsgBox(str & " = " & arg)
 End Function
