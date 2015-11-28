@@ -1,6 +1,8 @@
 Sub main()
 
-MsgBox ("this is test")
+MsgBox ("this Is test")
+
+MsgBox Range("b1")
 
 
 End Sub
